@@ -1,0 +1,138 @@
+html{
+    background-color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+}
+nav{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.card-container{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;    
+}
+.profile-img{
+    width: 100px;
+    border-radius: 50%;
+}
+.card{
+    padding: 30px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+}
+.item{
+    padding: 20px;
+    border: 1px solid #808080;
+    /* width: 75%; */
+    flex-grow: 1;
+}
+.profile{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    font-weight: 50 !important;
+}
+li{
+    /* margin-top: 20px;    */
+    line-height: 30px;
+}
+.bottom-card > div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.bottom-card img{
+    width: 30px;
+    height: 30px;
+}
+.item{
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+}
+table{
+    border: 1px solid gray;
+    width: 100%;
+    margin-top: 20px;
+    flex-grow: 1;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+thead{
+    border: 1px solid gray;
+}
+td{
+    padding: 5px;
+    /* border: 1px solid gray; */
+    border-right: 1px solid gray;
+    color: #808080;
+}
+table td:nth-child(3){
+    border-right: none;
+}
+thead td{
+    border-bottom: 1px solid gray;
+}
+input{
+    display: none;
+}
+label{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 2px ;
+}
+input:checked +  label {
+    background-color: gray;
+}
+.bottom-card{
+    color: #808080;
+}
+.tgte{
+    /* font-weight: bolder; */
+}
+tr td:nth-child(1),tr td:nth-child(2){
+    width: 30px;
+    text-align: center;
+}
+@media (max-width:700px){
+    .container{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
